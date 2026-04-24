@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FitGen.Application\FitGen.Aplicacion.csproj" />
-    <ProjectReference Include="..\FitGen.Infrastructure\FitGen.infraestructura.csproj" />
+    <ProjectReference Include="..\FitGen.Infrastructure\FitGen.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

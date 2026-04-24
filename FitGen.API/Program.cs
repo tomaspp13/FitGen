@@ -1,15 +1,12 @@
 using FitGen.Aplicacion.UseCases;
 using FitGen.Dominio.Interfaces;
-using FitGen.infraestructura.Email;
-using FitGen.infraestructura.OpenAI;
+using FitGen.Infrastructure.Email;
+using FitGen.Infrastructure.OpenAI;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
 
-// OpenAI
 builder.Services.AddHttpClient();
 builder.Services.AddScoped<IOpenAIService>(sp =>
 {
@@ -18,7 +15,6 @@ builder.Services.AddScoped<IOpenAIService>(sp =>
     return new OpenAIService(httpClient, apiKey);
 });
 
-// Gmail
 builder.Services.AddScoped<IEmailService>(sp =>
 {
     var gmailUser = builder.Configuration["Gmail:Usuario"];

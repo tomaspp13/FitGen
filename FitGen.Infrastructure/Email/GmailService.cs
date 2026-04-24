@@ -2,7 +2,7 @@
 using MimeKit;
 using FitGen.Dominio.Interfaces;
 
-namespace FitGen.infraestructura.Email
+namespace FitGen.Infrastructure.Email
 {
     public class GmailService : IEmailService
     {

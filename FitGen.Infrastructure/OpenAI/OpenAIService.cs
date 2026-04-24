@@ -3,7 +3,7 @@ using System.Text;
 using System.Text.Json;
 using FitGen.Dominio.Interfaces;
 
-namespace FitGen.infraestructura.OpenAI
+namespace FitGen.Infrastructure.OpenAI
 {
     public class OpenAIService : IOpenAIService
     {

@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitGen.Dominio", "FitGen.Do
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitGen.Aplicacion", "FitGen.Application\FitGen.Aplicacion.csproj", "{8A5DEDE2-AD78-4B38-AD76-81A5AD9C8683}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitGen.Infraestructura", "FitGen.Infrastructure\FitGen.Infraestructura.csproj", "{E422B107-A945-4BCE-813B-9171FF0A97B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitGen.Infrastructure", "FitGen.Infrastructure\FitGen.Infrastructure.csproj", "{E422B107-A945-4BCE-813B-9171FF0A97B3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitGen.API", "FitGen.API\FitGen.API.csproj", "{C33ED920-435F-4C56-B359-3950B5E08F70}"
 EndProject
