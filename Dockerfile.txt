@@ -2,9 +2,9 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
 COPY ["FitGen.API/FitGen.API.csproj", "FitGen.API/"]
-COPY ["FitGen.Application/FitGen.Aplicacion.csproj", "FitGen.Aplicacion/"]
-COPY ["FitGen.Domain/FitGen.Dominio.csproj", "FitGen.Dominio/"]
-COPY ["FitGen.Infrastructure/FitGen.infraestructura.csproj", "FitGen.Infraestructura/"]
+COPY ["FitGen.Application/FitGen.Aplicacion.csproj", "FitGen.Application/"]
+COPY ["FitGen.Domain/FitGen.Dominio.csproj", "FitGen.Domain/"]
+COPY ["FitGen.Infrastructure/FitGen.infraestructura.csproj", "FitGen.Infrastructure/"]
 
 RUN dotnet restore "FitGen.API/FitGen.API.csproj"
 
